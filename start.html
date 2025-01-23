@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Catch the Falling Objects</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+            #start-page {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color:antiquewhite;
+                color: rgb(237, 13, 106);
+                flex-direction: column;
+                text-align: center;
+            }
+            #start-page h1 {
+                font-size: 3rem;
+                margin-bottom: 20px;
+            }
+            #start-page button {
+                padding: 15px 30px;
+                font-size: 1.5rem;
+                font-weight: bold;
+                background-color: #e4ba30;
+                color: white;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+            }
+            #start-page button:hover {
+                background-color: #cc8821;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="start-page">
+            <h1>Catch it!</h1>
+            <button id="playbutton">Play</button>
+        </div>
+        <script>
+            const playButton = document.getElementById("playbutton");
+    
+            playButton.addEventListener("click", () => {
+                
+                window.location.href = "index.html"; 
+            });
+        </script>
+    </body>
+</html>

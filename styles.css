@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: bisque;
+}
+
+#game-container {
+    position: relative;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    margin: 10px;
+    overflow: hidden;
+}
+
+#basket {
+    position: absolute;
+    bottom: 10px;
+    width: 150px;
+    height: 30px;
+    background: rgb(19, 73, 4);
+    border-radius: 5px;
+}
+
+.falling-object {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+.black-ball {
+    position: absolute;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 50%;
+}
+
+#score-board {
+    position: absolute;
+    top: 100px;
+    right: 90px;
+    font-size: 25px;
+
+}
+#hiscore-board {
+    position: absolute;
+    top: 130px;
+    right: 90px;
+    font-size: 25px;
+
+}
+#game-over {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+#play-again{
+    margin-top: 20px; 
+            padding: 10px 20px; 
+            font-size: 1.2rem; 
+            background-color: #28a745; 
+            color: white; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer;
+}
+#lives-board{
+    position: absolute;
+    top: 160px;
+    right: 90px;
+    font-size: 25px;
+}
